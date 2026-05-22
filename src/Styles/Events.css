@@ -1,0 +1,291 @@
+.volver {
+  display: flex;
+  text-decoration: none;
+  color: var(--color-text);
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 30px;
+  margin-left: 60px;
+}
+
+.eventos-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-top: 20px;
+  margin-left: 60px;
+  text-align: left;
+}
+
+.eventos-description {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-left: 60px;
+  margin-top: -30px;
+  text-align: left;
+}
+
+.banner-title {
+  position: relative;
+  width: 100%;
+  height: 230px;
+}
+
+.img-title {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.3;
+}
+
+.banner-overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.instructions {
+  font-size: 17px;
+  color: var(--color-black);
+  margin-top: 70px;
+  margin-left: 60px;
+  text-align: left;
+  line-height: 130%;
+  padding-right: 400px;
+  box-shadow: 0 10px 30px var(--color-shadow);
+}
+
+.events-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-top: 40px;
+  text-align: center;
+}
+
+.events-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+.event-card {
+  display: flex;
+  background: var(--color-white);
+  border-radius: 18px;
+  margin: 20px 40px 0 40px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px var(--color-shadow);
+  transition: all 0.3s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px var(--color-shadow);
+}
+
+.event-card img {
+  width: 200px;
+  height: 240px;
+  object-fit: cover;
+}
+
+.event-details {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.event-title {
+  margin-top: -10px;
+}
+
+.event-date {
+  margin-top: 35px;
+}
+
+.event-location {
+  transform: translateY(-5px);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: -50px;
+}
+
+.event-location:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: var(--color-primary-dark);
+}
+
+.zehn-modal {
+  display: flex;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background: var(--color-shadow);
+  justify-content: center;
+  align-items: center;
+}
+.zehn-modal-content {
+  background: var(--color-white);
+  border-radius: 16px;
+  max-width: 95vw;
+  width: 400px;
+  box-shadow: 0 4px 24px var(--color-shadow);
+  position: relative;
+  text-align: center;
+}
+
+.zehn-register-button {
+  display: block;
+  margin-left: auto;
+  margin-right: 20px;
+  padding: 10px 40px;
+  background: var(--color-primary);
+  color: var(--color-white);
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  box-shadow: 0 4px 0 var(--color-shadow);
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.12s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.zehn-register-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px var(--color-shadow);
+}
+
+.text-modal {
+  margin-top: 30px;
+}
+
+.location-section {
+  background-color: var(--color-background-light);
+}
+
+.location-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: var(--color-text);
+  text-align: center;
+  padding-top: 30px;
+}
+
+.location-container {
+  padding-bottom: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .events-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .volver {
+    margin-left: 20px;
+    padding-top: 20px;
+    font-size: 1.3rem;
+  }
+  .eventos-title {
+    font-size: 1.8rem;
+    margin-left: 20px;
+  }
+  .eventos-description {
+    font-size: 1rem;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  .instructions {
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+  }
+  .events-list {
+    grid-template-columns: 1fr;
+    max-width: 600px;
+  }
+  .event-card {
+    margin: 20px 20px 0 20px;
+  }
+  .location-container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .volver {
+    margin-left: 16px;
+    padding-top: 15px;
+    font-size: 1.1rem;
+  }
+  .eventos-title {
+    font-size: 1.5rem;
+    margin-left: 16px;
+  }
+  .eventos-description {
+    font-size: 0.95rem;
+    margin-left: 16px;
+    margin-top: -5px;
+  }
+  .instructions {
+    font-size: 15px;
+    margin-left: 16px;
+    padding: 15px;
+    margin-top: 30px;
+  }
+  .event-card {
+    flex-direction: column;
+    margin: 15px 16px 0 16px;
+  }
+  .event-card img {
+    width: 100%;
+    height: 180px;
+  }
+  .event-details {
+    padding: 15px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .event-title {
+    margin-top: 0;
+    font-size: 1.3rem;
+  }
+  .event-date {
+    margin-top: 15px;
+  }
+  .event-location {
+    margin-top: 10px;
+    transform: none;
+  }
+  .zehn-register-button {
+    margin: 15px auto 10px auto;
+    width: 90%;
+    text-align: center;
+  }
+  .location-title {
+    font-size: 1.6rem;
+  }
+}

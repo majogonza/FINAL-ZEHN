@@ -1,0 +1,51 @@
+{
+  "abril": [
+    {
+      "date": "Abril 23 2026",
+      "hour": "3:00 P.M",
+      "author": "María Fernanda Ríos es estratega creativa, mentora de emprendimiento y conferencista especializada en innovación cultural. Ha acompañado proyectos emergentes en Latinoamérica que integran arte y transformación social.",
+      "description": "Un encuentro dirigido a emprendedores, creativos y soñadores que buscan transformar sus ideas en proyectos sostenibles. A través de conversaciones inspiradoras y herramientas prácticas, este taller invita a descubrir nuevas formas de liderazgo, innovación y crecimiento personal para construir un camino auténtico hacia el éxito",
+      "title": "TALLER PARA EMPRENDEDORES: ¡ELIGE EL CAMINO HACIA EL EXITO",
+      "location": "Zehn Living Medellin",
+      "image": "https://zehn.com.co/wp-content/uploads/2024/11/Banner.jpg"
+    },
+    {
+      "date": "Abril 30 2026",
+      "hour": "1:00 P.M",
+      "author": "Paloma Cruz es artista y gestora cultural enfocada en procesos de identidad y expresión contemporánea. Su trabajo explora herramientas narrativas capaces de expandir la creatividad y cuestionar las dinámicas sociales actuales.",
+      "description": "Una conversación abierta sobre identidad, creatividad y expresión artística. Este conversatorio explora cómo los alter ego pueden convertirse en herramientas para liberar emociones, potenciar talentos y reinventar nuestra manera de relacionarnos con el arte y con nosotros mismos.",
+      "title": "CONVERSATORIO: DARLE RIENDA SUELTA A LOS ALTER EGO",
+      "location": "Zehn Living Medellin",
+      "image": "/eventos/evento2.webp"
+    }
+  ],
+  "mayo": [
+    {
+      "date": "Mayo 15 2026 - Mayo 31 2026",
+      "hour": "7:00 P.M",
+      "author": "Maria Escobar, investigadora y promotora de arte contemporáneo, esta exposición reúne artistas emergentes y consolidados que trabajan sobre la memoria, la transformación y las conexiones humanas desde múltiples lenguajes visuales.",
+      "description": "Una exposición colectiva que reúne artistas contemporáneos en torno a la idea de los umbrales como espacios de transformación, conexión y memoria. La muestra invita al espectador a recorrer distintas perspectivas visuales que dialogan entre lo individual y lo colectivo.",
+      "title": "OPENING: UMBRALES CONTEMPORÁNEOS, CONEXIÓN COLECTIVA",
+      "location": "Zehn Living Medellin",
+      "image": "https://zehn.com.co/wp-content/uploads/2025/02/UMBRALES-CONTEMPORANEOS.jpeg"
+    },
+    {
+      "date": "Mayo 20 2026",
+      "hour": "11:00 A.M",
+      "author": "Valentina Gómez es artista plástica y educadora infantil especializada en pedagogías creativas. Su trabajo busca despertar la imaginación de niños y niñas mediante experiencias artísticas que fortalecen la sensibilidad, el juego y la exploración visual.",
+      "description": "Un espacio creativo pensado para que niños y niñas exploren el arte desde la imaginación y el juego. A través de colores, formas y técnicas básicas de pintura, los participantes podrán crear mundos fantásticos mientras desarrollan su sensibilidad artística.",
+      "title": "PLANOS IMAGINARIOS. TALLER DE PINTURA PARA NIÑOS",
+      "location": "Zehn Living Medellin",
+      "image": "https://zehn.com.co/wp-content/uploads/2025/02/taller.jpeg"
+    },
+    {
+      "date": "Mayo 7 2026",
+      "hour": "2:00 P.M",
+      "author": "Carolina Gomez psicóloga social y conferencista enfocada en bienestar emocional y construcción de paz. A través de sus investigaciones y espacios de diálogo, promueve reflexiones sobre la salud mental, la empatía y la convivencia consciente.",
+      "description": "Un espacio de reflexión y diálogo sobre la paz entendida desde la mente, las emociones y la convivencia cotidiana. Este encuentro propone conversaciones profundas que buscan comprender cómo nuestras percepciones individuales influyen en la construcción colectiva de una sociedad más consciente.",
+      "title": "LA PAZ SOLO ES MENTAL: ENTENDÁMOSLA JUNTOS",
+      "location": "Parque Explora Medellín",
+      "image": "https://zehn.com.co/wp-content/uploads/2024/11/EVENTO-1.jpg"
+    }
+  ]
+}
