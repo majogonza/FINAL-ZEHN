@@ -122,6 +122,7 @@ Ejecuta validaciones y análisis del código.
 
 # Estructura del proyecto
 
+```bash
 .
 ├── .firebase/                 # Archivos de configuración de Firebase Hosting
 │
@@ -151,7 +152,7 @@ Ejecuta validaciones y análisis del código.
 ├── package.json               # Dependencias y scripts del proyecto
 ├── README.md                  # Documentación del proyecto
 └── vite.config.js             # Configuración de Vite
-
+```
 
 # Variables de entorno
 
@@ -201,13 +202,13 @@ Para contribuir al proyecto:
 
 # Roadmap
 
-* [ ] Implementar autenticación de usuarios.
-* [ ] Agregar pasalera de pagos funcional.
-* [ ] Integrar backend y base de datos.
-* [ ] Mejorar la optimización responsive.
-* [ ] Agregar filtros avanzados de productos.
-* [ ] Implementar modo oscuro.
-* [ ] Añadir pruebas automatizadas.
+* Implementar autenticación de usuarios.
+* Agregar pasalera de pagos funcional.
+* Integrar backend y base de datos.
+* Mejorar la optimización responsive.
+* Agregar filtros avanzados de productos.
+* Implementar modo oscuro.
+* Añadir pruebas automatizadas.
 
 
 # Autores
