@@ -132,13 +132,8 @@ function Gallery() {
               <Swiper
                 key={obras.length}
                 modules={[EffectCoverflow, Pagination, Keyboard]}
-                observer={true}
-                observeParents={true}
-                resizeObserver={true}
                 keyboard={{ enabled: true }}
-                onSwiper={(swiper) => {
-                  swiperRef.current = swiper;
-                }}
+                onSwiper={(swiper) => (swiperRef.current = swiper)}
                 effect={"coverflow"}
                 centeredSlides={true}
                 slidesPerView={1}
@@ -152,19 +147,9 @@ function Gallery() {
                     spaceBetween: 24,
                   },
                 }}
-                spaceBetween={24}
                 loop={true}
-                loopAdditionalSlides={2}
-                watchSlidesProgress={true}
                 pagination={{ clickable: true }}
                 onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
-                coverflowEffect={{
-                  rotate: 35,
-                  stretch: 0,
-                  depth: 60,
-                  modifier: 1,
-                  slideShadows: false,
-                }}
               >
                 {obras.map((obra, index) => (
                   <SwiperSlide key={index}>
