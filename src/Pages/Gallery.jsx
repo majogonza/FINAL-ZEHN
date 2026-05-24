@@ -138,7 +138,6 @@ function Gallery() {
                 keyboard={{ enabled: true }}
                 onSwiper={(swiper) => {
                   swiperRef.current = swiper;
-                  forceSwiperUpdate();
                 }}
                 effect={"coverflow"}
                 centeredSlides={true}
